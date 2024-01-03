@@ -1,0 +1,369 @@
+
+<!DOCTYPE html>
+<html lang="en-US" class="h-100">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href='/frontend/web/images/nta-logo.png'>
+    <title>University Grants Commission (UGC)-NET | India</title>
+  <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="_nCbc8nZvZiWJAmDlzW3c6fFItyAt6ooFQMzFeP67C2hHPMqiOHpoaRMZurYDcFFxoxlrsyOy2siTUQij629cg==">
+
+<link href="/frontend/web/assets/acce09e1/dist/css/bootstrap.css" rel="stylesheet">
+<link href="/frontend/web/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="/frontend/web/lib/bootstrap/css/bootstrap-grid.min.css" rel="stylesheet">
+<link href="/frontend/web/lib/bootstrap/css/bootstrap-reboot.min.css" rel="stylesheet">
+<link href="/frontend/web/lib/bootstrap/css/bootstrap-utilities.min.css" rel="stylesheet">
+<link href="/frontend/web/lib/remixicon/fonts/remixicon.css" rel="stylesheet">
+<link href="/frontend/web/css/style.min.css" rel="stylesheet">  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/frontend/web/css/sweetalert.min.css">
+  <script src="/frontend/web/js/sweetalert2.all.min.js"></script>
+  <script src="/frontend/web/js/jquery.min.js"></script>
+  <style>
+    .my-swal {
+      width: 800px !important;
+      /* Adjust the desired width */
+      height: 800px ! !important;
+      padding: 1px 20px !important;
+      position: relative !important;
+      font-size: 15px !important;
+      color: #535353 !important;
+      background: #ffffff !important;
+      font-weight: 900 !important;
+    }
+  </style>
+</head>
+
+<body class="d-flex flex-column h-100">
+        <div class="login-page">
+    <div class="header-main navbar navbar-expand-md navbar-light bg-light row">
+      <div class="col-sm-4"> <a href="#"><img class="dept-higher-edu-logo img-fluid" src="/frontend/web/images/dept-higher-edu.webp" alt=""></a> </div>
+      <div class="col-sm-4 text-center custom-text-logo"><a href="#"><img class="ugc-logo img-fluid" src="/frontend/web/images/ugc-logo.webp" alt=""></a>
+      </div>
+      <div class="col-sm-4 text-end"> <a href="#"><img class="nta-logo img-fluid" src="/frontend/web/images/nta-logo-new.webp" alt=""></a> </div>
+    </div>
+    <nav class="navbar navbar-expand-sm navbar-dark topnavigation">
+      <div class="container-fluid">
+        <a class="navbar-brand test-for" href="javascript:void(0)">UGC-NET DECEMBER-2023</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar"> <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"> <a class="nav-link userActivityBtn" href="/frontend/web/site/login" data-modulename="Home" data-activityname="Home-Link"><i class="ri-home-8-line"></i> Home</a> </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <marquee behavior="scroll" direction="left"  onmouseover="this.stop();" onmouseout="this.start();" onmousedown="this.stop();" onmouseup="this.start();" >
+                <h4 class="text-danger"><strong>UGC-NET DEC2023: Admit cards are live for all exam dates</strong></h4></marquee>
+
+    <!-- <!DOCTYPE html>
+<html lang="en-US" class="h-100"> -->
+<!-- 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title></title>
+    <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="_nCbc8nZvZiWJAmDlzW3c6fFItyAt6ooFQMzFeP67C2hHPMqiOHpoaRMZurYDcFFxoxlrsyOy2siTUQij629cg==">
+
+<link href="/frontend/web/assets/acce09e1/dist/css/bootstrap.css" rel="stylesheet">
+<link href="/frontend/web/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="/frontend/web/lib/bootstrap/css/bootstrap-grid.min.css" rel="stylesheet">
+<link href="/frontend/web/lib/bootstrap/css/bootstrap-reboot.min.css" rel="stylesheet">
+<link href="/frontend/web/lib/bootstrap/css/bootstrap-utilities.min.css" rel="stylesheet">
+<link href="/frontend/web/lib/remixicon/fonts/remixicon.css" rel="stylesheet">
+<link href="/frontend/web/css/style.min.css" rel="stylesheet"> 
+</head> -->
+<style>
+  #w0-success-0 {
+    display: none !important;
+  }
+
+  .form-group {
+    position: relative;
+  }
+
+  .toggle-password {
+    position: absolute;
+    right: 25px;
+    top: 9px;
+    color: #9e9e9e;
+  }
+
+  .navbar-dark .navbar-toggler-icon {
+    background: url(../../web/images/mobile-menu.png) no-repeat scroll 0 0 !important;
+    width: 27px;
+    height: 27px;
+  }
+
+  @media (max-width: 769px) and (min-width: 300px) {
+    .login-right-section .col-form-label {
+      text-align: left !important;
+    }
+  }
+</style>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+<div class="content-body">
+  <div class="row">
+    <div class="col-lg-5 form-section">
+      <div class="card card-white">
+        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+          <h6 class="m-0 font-weight-normal text-head-color">Steps to Apply Online</h6>
+        </div>
+        <div class="card-body login-left-section">
+          <img class="img-fluid mb-3" src="/frontend/web/images/entrance-exam.webp" alt="">          <div class="alert alert-primary">
+            <strong>Step 1:-</strong> Apply for Online Registration.
+          </div>
+
+          <div class="alert alert-primary">
+            <strong>Step 2:-</strong> Fill Online Application Form.
+          </div>
+
+          <div class="alert alert-primary">
+            <strong>Step 3:-</strong> Pay Examination Fee.
+          </div>
+
+
+                                <div class="d-grid mb-3">
+              <a class="btn btn-sm btn-success btn-block btn-theme userActivityBtn" href="/frontend/web/advancecityintimationslip/admit-card" data-modulename="Admit-Card" data-activityname="click-only-on-button"><i class="ri-user-add-line"></i> Admit Card</a>            </div>
+                              <!--<div class="extra-login form-group clearfix text-center">
+                    <span>If You are a New Candidate Click on Below Link</span>
+                </div>-->
+                           <div class="d-grid mb-3">
+              <a class="btn btn-sm btn-success btn-block btn-theme userActivityBtn" href="/frontend/web/answer-key-challenge/login-answer" data-modulename="Admit-Card" data-activityname="click-only-on-button"><i class="ri-user-add-line"></i> Answer key Challenge</a>            </div>
+          <div class="d-grid-3">
+            <!-- <ul>
+              <li><a href="/frontend/web/faq/index" class="userActivityBtn" data-modulename="FAQ" data-activityname="FAQ-Link">FAQ</a> <img src="https://ugcnet.ntaonline.in/images/new_red.gif" /> </li>
+              <li><a href="../uploads/public-notice-inviting-online-application.pdf" target="_blank" class="userActivityBtn" data-modulename="Inviting-Online-Application" data-activityname="Download">Public Notice - Inviting Online Application </a><img src="https://ugcnet.ntaonline.in/images/new_red.gif" /></li>
+            </ul> -->
+            <br /><br />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-7">
+      <div class="card card-white">
+        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+          <h6 class="m-0 font-weight-normal text-head-color"><i class="ri-user-3-line"></i> Only Registered Candidate Login Here</h6>
+        </div>
+
+        <div class="card-body login-right-section">
+
+          <form id="login-form" action="/frontend/web/site/login" method="post">
+<input type="hidden" name="_csrf-frontend" value="_nCbc8nZvZiWJAmDlzW3c6fFItyAt6ooFQMzFeP67C2hHPMqiOHpoaRMZurYDcFFxoxlrsyOy2siTUQij629cg==">             <input type='hidden' name='salt' id='salt'/>
+          <div class="row mb-3">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-5">
+                          </div>
+            <div>
+                            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label text-end">Application For</label>
+                <div class="col-sm-5">
+                  <select class="form-select form-select-sm" aria-label=".form-select-sm example" disabled>
+                    <option selected="">UGC-NET DEC-2023</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label class="col-sm-4 col-form-label text-end">Application Number</label>
+                <div class="col-sm-5">
+                  <div class="mb-3 field-loginform-applicationnumber required">
+
+<input type="text" id="loginform-applicationnumber" class="form-control form-control-sm" name="LoginForm[ApplicationNumber]" autofocus placeholder="Enter Application Number" minlength="12" onkeypress="return numericApplication(event,&#039;numeric&#039;)" aria-required="true">
+
+<div class="invalid-feedback"></div>
+</div>                </div>
+              </div>
+              <div class="row mb-3">
+                <label class="col-sm-4 col-form-label text-end">Password</label>
+                <div class="col-sm-5">
+                  <div class="form-group field-Password required">
+
+<input type="text" id="Password" class="form-control form-control-sm" name="LoginForm[Password]" value="" maxlength="30" oninput="turnOnPasswordStyle()" placeholder="Enter Password" autocomplete="off" onkeyup="return passwordStrength(this)" aria-required="true"><i class='fa fa-eye-slash toggle-password' id='togglePassword'></i>
+
+<div class="invalid-feedback"></div>
+</div>                </div>
+              </div>
+              <div class="mb-3 field-my-captcha-image required">
+
+<div class="row mb-3r"><label class="col-sm-4 col-form-label text-end">Security PIN as Shown Below</label><div class="col-sm-5"><div class="form-group field-verifycode"><input type="text" id="my-captcha-image" class="form-control form-control-sm" name="LoginForm[verifyCode]" placeholder="Enter Security PIN as Shown Below" aria-required="true"><div class="invalid-feedback"></div></div></div></div><div class="row mb-3r"><label class="col-sm-4 col-form-label text-end">Security PIN</label><div class="col-sm-5"><img id="my-captcha-image-image" src="/frontend/web/site/captcha?v=65959a2b99f230.40216267" alt=""> <a href="javascript:;" id="refresh_captcha"><i class="fa fa-refresh green-color"></i></a></div></div>
+
+<div class="invalid-feedback"></div>
+</div>
+              <div class="row mb-3">
+                <label class="col-sm-4 col-form-label text-end empity-cell">&nbsp;</label>
+                <div class="col-sm-5">
+                  <button type="submit" class="btn btn-sm btn-success btn-theme" name="login-button" onclick="return encpwd();">Login</button>                </div>
+              </div>
+              <div class="extra-login form-group clearfix text-center">
+                <span>If You are Forgot your password? or Forgot Application Number? click on below link</span>
+              </div>
+              <div class="row mb-3">
+                <label class="col-sm-2 col-form-label text-end empity-cell">&nbsp;</label>
+                <div class="col-sm-4 mb-1 col-form-label">
+                  <a class="btn btn-sm btn-success btn-theme userActivityBtn" href="/frontend/web/registration/request-password-reset" data-modulename="Forgot-Password" data-activityname="click-only-on-button"><i class="ri-key-line"></i> Forgot your password?</a>                </div>
+                <div class="col-sm-6 mb-1 col-form-label">
+                  <a class="btn btn-sm btn-success btn-theme userActivityBtn" href="/frontend/web/registration/request-application-reset" data-modulename="Forgot-Application-Number" data-activityname="click-only-on-button"><i class="ri-key-line"></i> Forgot Application Number?</a>                </div>
+                <label class="col-sm-2 col-form-label text-end empity-cell">&nbsp;</label>
+              </div>
+
+              <div class="row mb-3">
+                <label class="col-sm-2 col-form-label text-end empity-cell">&nbsp;</label>
+                
+                <label class="col-sm-3 col-form-label text-end empity-cell">&nbsp;</label>
+              </div>
+              </form>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <!-- <body class="d-flex flex-column h-100"> -->
+
+    
+    <script>
+      function numericApplication(e, action = "alpha") {
+        var k = e.keyCode;
+        var applicationnumber = $('#loginform-applicationnumber').val().length
+        //console.log(applicationnumber);
+        if (applicationnumber > 30) {
+          return false;
+        }
+        var status = ((k > 64 && k < 91) || (k > 96 && k < 123) || k == 8 || k == 32);
+        if (action == "alpha") {
+          status = ((k > 64 && k < 91) || (k > 96 && k < 123) || k == 8 || k == 32);
+        } else if (action == "numeric") {
+          status = ((k >= 48 && k <= 57));
+        }
+        return status;
+      }
+
+      function turnOnPasswordStyle() {
+        $('#Password').attr('type', "password");
+      }
+      document.getElementById("togglePassword").addEventListener("click", eyeOpenHide);
+
+      function eyeOpenHide() {
+        // var password = document.querySelector("#Password");
+        var password = document.getElementById('Password');
+        const type = password.getAttribute("type") === "password" ? "text" : "password";
+        var element = document.getElementById("togglePassword");
+        if (type === 'text') {
+          element.classList.remove("fa-eye-slash");
+          element.classList.add("fa-eye");
+        } else {
+          element.classList.remove("fa-eye");
+          element.classList.add("fa-eye-slash");
+        }
+        password.setAttribute("type", type);
+      }
+	  
+	   function encpwd(){
+              var pwd = btoa(document.getElementById("Password").value);
+              var pwd_bas2 = btoa(pwd);             
+              const fixedSaltLength = 12; 
+              let salt = "";
+              while (salt.length < fixedSaltLength) {
+                   salt += Math.floor(Math.random() * 10); // Generate a random digit (0-9)
+                   }
+              const salt1 = salt.substring(0, 6);
+              const salt2 = salt.substring(6);
+              var Saltedhash = salt1 + pwd_bas2 + salt2;
+              $('#Password').attr('type', "password")
+              document.getElementById("Password").value=Saltedhash;
+              document.getElementById("salt").value=Saltedhash;
+              
+       
+      }
+    </script>
+
+    <!-- </body>
+
+</html> -->  </div>
+  <div class="footer row">
+    <div class="col-md-6">
+      <span class="total-visitors">Total Visitors: 000545855</span>
+    </div>
+    <div class="col-md-6 text-end">
+      <a href="#"><img class="nta-logo img-fluid" src="/frontend/web/images/nta-logo-new.webp" alt=""></a>
+    </div>
+  </div>
+  <script src="/frontend/web/assets/f3048ffb/jquery.js"></script>
+<script src="/frontend/web/assets/f59b8506/yii.js"></script>
+<script src="/frontend/web/assets/f59b8506/yii.validation.js"></script>
+<script src="/frontend/web/assets/f59b8506/yii.captcha.js"></script>
+<script src="/frontend/web/assets/f59b8506/yii.activeForm.js"></script>
+<script src="/frontend/web/js/popper.min.js"></script>
+<script src="/frontend/web/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/frontend/web/js/password-icon.js"></script>
+<script>jQuery(function ($) {
+jQuery('#my-captcha-image-image').yiiCaptcha({"refreshUrl":"\/frontend\/web\/site\/captcha?refresh=1","hashKey":"yiiCaptcha\/site\/captcha"});
+jQuery('#login-form').yiiActiveForm([{"id":"loginform-applicationnumber","name":"ApplicationNumber","container":".field-loginform-applicationnumber","input":"#loginform-applicationnumber","error":".invalid-feedback","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Application Number cannot be blank."});yii.validation.regularExpression(value, messages, {"pattern":/^[0-9]+$/,"not":false,"message":"Application Number should contain only numeric value.","skipOnEmpty":1});yii.validation.string(value, messages, {"message":"Application Number must be a string.","min":12,"tooShort":"Application Number should contain at least 12 characters.","max":30,"tooLong":"Application Number should contain at most 30 characters.","skipOnEmpty":1});}},{"id":"Password","name":"Password","container":".field-Password","input":"#Password","error":".invalid-feedback","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Password cannot be blank."});}},{"id":"my-captcha-image","name":"verifyCode","container":".field-my-captcha-image","input":"#my-captcha-image","error":".invalid-feedback","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Verification Code cannot be blank."});yii.validation.regularExpression(value, messages, {"pattern":/^[0-9]+$/,"not":false,"message":"Verification Code should contain only numeric value.","skipOnEmpty":1});yii.validation.captcha(value, messages, {"hash":6333,"hashKey":"yiiCaptcha\/site\/captcha","caseSensitive":false,"message":"The verification code is incorrect."});}}], {"errorSummary":".alert.alert-danger","errorCssClass":"is-invalid","successCssClass":"is-valid","validationStateOn":"input"});
+
+        $(document).ready(function () {
+            $("#refresh_captcha").click(function (event) {
+                event.preventDefault();
+                $(this).parent().children('img').click();
+            })
+        });
+
+        $(document).ready(function (){
+            $(".form-control").addClass("form-control-sm");
+            $("#refresh_captcha").click();    
+        });
+
+       
+
+        $(document).ready(function () {
+          $(".userActivityBtn").click(function () {
+            console.log("login-main.php");
+            var currentURL   = $(location).attr("href");
+              $.ajax({
+                url: "/frontend/web/useracitivity/useract" ,
+                type: "post",
+                data: {
+                      moduleName: $(this).attr("data-modulename"),  
+                      activityName: $(this).attr("data-activityname"), 
+                      url: currentURL,  
+                      _csrf : "<?=Yii::$app->request->getCsrfToken()?>"
+                    },
+                success: function (data) {
+                   console.log(data);
+                }
+            });
+          })
+        });
+
+       
+});</script>
+</body>
+
+</html>
+<script>
+  document.onkeydown = function(e) {
+  if(event.keyCode == 123) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+     return false;
+  }
+}
+ 
+document.addEventListener('contextmenu', function(e){
+e.preventDefault();
+});
+ 
+</script>
